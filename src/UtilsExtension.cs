@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 
 namespace Intermediate {
-	public static class Utils {
+	public static class UtilsExtension {
 		
 		public static void ToConsole(this object o, string msg) {
 			Console.WriteLine($"{msg}{o}");
